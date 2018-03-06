@@ -12,17 +12,59 @@ I've left some boilerplate below for you.
 
 */
 
-body {
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
 }
 
-article {
 
-}
 
-h1 {
- 
-}
+
+
 
 img {
   max-width:  100%;
+ 
 }
+
+@media screen and (min-width: 630px){ 
+  body {
+    width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ 
+}
+
+@media screen and (min-width: 800px){ 
+  body {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ 
+}
+
+.zocial{
+  font-size: 1.5em; 
+  text-shadow: 2px ;
+}
+
+.zocial a {
+  margin-left: 1.25em;
+}
+
+article{
+  border-bottom: 2px solid;
+}
+
+
+
+
+
+
